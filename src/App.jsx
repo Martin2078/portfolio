@@ -176,19 +176,19 @@ function App() {
             <h3 className='text-3xl font-semibold'>Skills</h3>
             <span className='w-full h-5vh flex items-center gap-8'>
               <div className='flex gap-1 items-center'>
-                <img className='h-12 object-contain' src={html} alt="" />
-                <img className='h-12 object-contain' src={css} alt="" />
-                <img className='h-10 object-contain' src={js} alt="" />
+                <img className='myTechs h-12 object-contain' src={html} alt="" />
+                <img className='myTechs h-12 object-contain' src={css} alt="" />
+                <img className='myTechs h-10 object-contain' src={js} alt="" />
               </div>
               <div className='flex gap-1'>
-                <img className='h-12 object-contain' src={MongoDB} alt="" />
-                <img className='h-12 object-contain' src={Express} alt="" />
-                <img className='h-12 object-contain' src={React} alt="" />
-                <img className='h-12 object-contain' src={NodeJs} alt="" />
+                <img className='myTechs h-12 object-contain' src={MongoDB} alt="" />
+                <img className='myTechs h-12 object-contain' src={Express} alt="" />
+                <img className='myTechs h-12 object-contain' src={React} alt="" />
+                <img className='myTechs h-12 object-contain' src={NodeJs} alt="" />
               </div>
               <div className='flex gap-1'>
-                <img className='h-12 object-contain' src={Tailwind} alt="" />
-                <img className='h-12 object-contain' src={ReactNative} alt="" />
+                <img className='myTechs h-12 object-contain' src={Tailwind} alt="" />
+                <img className='myTechs h-12 object-contain' src={ReactNative} alt="" />
               </div>
             </span>
           </span>
@@ -252,11 +252,11 @@ function App() {
                     <span className='w-3/12 flex flex-col justify-between gap-1'>
                       <h4 className='text-xl font-semibold'>SourceCode</h4>
                       <span className='flex justify-center w-full'>
-                        <a className='sourceCodeS duration-100 border-2 border-r-0 rounded-md flex items-center justify-center' href={project.sourceCodeFront}>
+                        <a className='h-9 sourceCodeS duration-100 border-2 border-r-0 rounded-md flex items-center justify-center' href={project.sourceCodeFront}>
                           <p className='font-semibold hidden px-2'>FrontEnd</p>
                           <img className='w-8' src={github} alt="" />
                         </a>
-                        <a className='sourceCodeS duration-100  border-2 border-r-0 rounded-md flex items-center justify-center' href={project.sourceCodeBack}>
+                        <a className='h-9 sourceCodeS duration-100  border-2 rounded-md flex items-center justify-center' href={project.sourceCodeBack}>
                           <p className='font-semibold hidden px-2'>BackEnd</p>
                           <img className='w-8' src={github} alt="" />
                         </a>

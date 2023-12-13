@@ -1,3 +1,6 @@
+.myTechs{
+    filter: drop-shadow(4px 3px 5px #1d21278e);
+}
 .contactA:hover img{
     transform: translate(0,-30%);
     scale: 110%;
@@ -12,5 +15,4 @@
 }
 .sourceCodeS:hover{
     background-color: #2dc77f;
-    
 }
