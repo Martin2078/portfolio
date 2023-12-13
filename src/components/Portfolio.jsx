@@ -127,7 +127,7 @@ const Portfolio = ({scrollRef}) => {
         }]
   return (
     <div ref={scrollRef} className='w-full h-[100vh] flex items-center justify-center'>
-        <div className='w-full  lg:w-[90vw] h-[90vh] flex flex-col justify-between '>
+        <div className='w-full  lg:w-[90vw] h-[90vh] flex flex-col justify-center '>
           <h2 className='text-2xl text-center lg:text-start font-semibold'>Portfolio</h2>
           <span className='w-full h-[85vh] lg:h-[70vh] px-2 md:px-5 py-6 flex flex-col md:flex-row md:justify-center lg:justify-stretch lg:flex-col items-center gap-10 md:gap-5 lg:gap-10 overflow-y-auto'>
             {projects.map((project) => {
