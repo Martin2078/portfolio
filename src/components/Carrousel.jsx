@@ -53,7 +53,7 @@ const Carrousel = ({data}) => {
     startTimeOut()
   },[position])
   return (
-    <div onTouchStart={handleTouchStart} onTouchMove={handleTouchMove} onTouchEnd={handleTouchEnd} className='w-1/2 h-full relative'>
+    <div onTouchStart={handleTouchStart} onTouchMove={handleTouchMove} onTouchEnd={handleTouchEnd} className='w-full lg:w-1/2 h-[30vh] md:h-[25vh] lg:h-full relative'>
       <button className='absolute left-0 top-0 h-full opacity-0 hover:opacity-100 z-10 w-1/6 bg-[#30303054] flex items-center justify-center' onClick={()=>prevPhoto()}>
         <img className='w-10 rotate-180' src={arrow} alt="" />
       </button>
